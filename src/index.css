@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @keyframes pulse-glow-green {
+    0%, 100% {
+      box-shadow: 0 0 15px rgba(16, 185, 129, 0.25), inset 0 0 15px rgba(0, 0, 0, 0.8);
+      border-color: rgba(16, 185, 129, 0.4);
+    }
+    50% {
+      box-shadow: 0 0 35px rgba(16, 185, 129, 0.65), inset 0 0 25px rgba(16, 185, 129, 0.2);
+      border-color: rgba(16, 185, 129, 0.85);
+    }
+  }
+
+  @keyframes spin-slow {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  @keyframes bounce-subtle {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+  }
+
+  @keyframes pulse-radial-green {
+    0%, 100% {
+      opacity: 0.5;
+      transform: scale(0.94);
+    }
+    50% {
+      opacity: 0.95;
+      transform: scale(1.06);
+    }
+  }
+
+  @keyframes pulse-radial-cyan {
+    0%, 100% {
+      opacity: 0.5;
+      transform: scale(0.94);
+    }
+    50% {
+      opacity: 0.95;
+      transform: scale(1.06);
+    }
+  }
+
+  .animate-pulse-glow-green {
+    animation: pulse-glow-green 2.5s ease-in-out infinite;
+  }
+
+  .animate-pulse-radial-green {
+    animation: pulse-radial-green 2.5s ease-in-out infinite;
+  }
+
+  .animate-pulse-radial-cyan {
+    animation: pulse-radial-cyan 2.5s ease-in-out infinite;
+  }
+
+  .animate-spin-slow {
+    animation: spin-slow 12s linear infinite;
+  }
+
+  .animate-bounce-subtle {
+    animation: bounce-subtle 2s ease-in-out infinite;
+  }
+}
+
+/* Custom scrollbar for bunker dark theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
+

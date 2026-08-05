@@ -1,0 +1,6 @@
+{
+  "name": "DCAD Email Bunker Terminal",
+  "description": "Dynamic first-person landing page for DCAD Email Generator applications with interactive CRT and PADD terminals, ambient room sway, and synthesized audio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
