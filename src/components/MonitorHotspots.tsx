@@ -64,7 +64,7 @@ export const MonitorHotspots: React.FC<MonitorHotspotsProps> = ({
               <span>SIT DOWN AT RC TERMINAL</span>
             </div>
             <div className="text-[9px] text-stone-400 font-normal text-center mt-0.5">
-              RETRO EMAIL GENERATOR
+              RC EMAIL GENERATOR
             </div>
           </motion.div>
         )}
@@ -117,7 +117,7 @@ export const MonitorHotspots: React.FC<MonitorHotspotsProps> = ({
               <span>SIT DOWN AT OPEN RECORDS TERMINAL</span>
             </div>
             <div className="text-[9px] text-slate-400 font-normal text-center mt-0.5">
-              FUTURISTIC EMAIL GENERATOR
+              O.R. EMAIL GENERATOR
             </div>
           </motion.div>
         )}
