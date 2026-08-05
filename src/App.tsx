@@ -20,7 +20,7 @@ const TERMINAL_CONFIGS: Record<TerminalId, TerminalConfig> = {
     version: 'DCAD-TERM-v2.8',
     systemName: 'DENTON CAD EMAIL GENERATOR // CRT SYSTEM 8086',
     targetUrl:
-      'https://aistudio.google.com/u/1/apps/e5497897-35e6-40a6-a173-f9e835766c8f?showPreview=true&showAssistant=true',
+      'https://dcad-rollcorr.ai.studio',
     badgeLabel: 'USI Pi-3',
     accentColor: 'green',
     glowStyle: 'pulsating',
@@ -34,7 +34,7 @@ const TERMINAL_CONFIGS: Record<TerminalId, TerminalConfig> = {
     version: 'TPA TERMINAL v3.01',
     systemName: 'TPA RESPONSE GENERATOR // TNG PADD v3.01',
     targetUrl:
-      'https://aistudio.google.com/u/1/apps/251a11a0-1bb4-4e09-b4db-1fd6014b1c0c?showAssistant=true&showPreview=true',
+      'https://texas-open-records-response-generator-977101497359.us-west1.run.app',
     badgeLabel: 'TNG PADD',
     accentColor: 'blue',
     glowStyle: 'constant',
